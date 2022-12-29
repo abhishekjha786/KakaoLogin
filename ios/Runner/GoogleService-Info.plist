@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>400681647041-ue20ikg9mtnb88rrn8ct1st4oe7ch5pc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.400681647041-ue20ikg9mtnb88rrn8ct1st4oe7ch5pc</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>400681647041-isoe1ni65rijhft2kr0l5qhm1qn9lift.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAPbuTz_aujSjN9l5bwgH-O8MDaz4raE-U</string>
+	<key>GCM_SENDER_ID</key>
+	<string>400681647041</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mycompany.detective</string>
+	<key>PROJECT_ID</key>
+	<string>detective-60142</string>
+	<key>STORAGE_BUCKET</key>
+	<string>detective-60142.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:400681647041:ios:8c6cbe04cd6ec6a9a20d40</string>
+</dict>
+</plist>

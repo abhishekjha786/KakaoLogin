@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "400681647041",
+    "project_id": "detective-60142",
+    "storage_bucket": "detective-60142.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400681647041:android:2e0b43b2f0f99558a20d40",
+        "android_client_info": {
+          "package_name": "com.mycompany.detective"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400681647041-isoe1ni65rijhft2kr0l5qhm1qn9lift.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.detective",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "400681647041-ufil8nbvr9rrcar6bedm3juaja39u3o6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7nyegC2U6Q5h3jFvrihZSc68CboWlSjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400681647041-ufil8nbvr9rrcar6bedm3juaja39u3o6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "400681647041-ue20ikg9mtnb88rrn8ct1st4oe7ch5pc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.detective"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
