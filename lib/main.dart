@@ -1,3 +1,4 @@
+import 'package:kakao_flutter_sdk/kakao_flutter_sdk.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
@@ -14,6 +15,7 @@ import 'flutter_flow/nav/nav.dart';
 import 'index.dart';
 
 void main() async {
+  KakaoSdk.init(nativeAppKey: 'ebdc1ea106cbd67e4fcc9dd4c010e913');
   WidgetsFlutterBinding.ensureInitialized();
   await initFirebase();
 
@@ -91,5 +93,8 @@ class _MyAppState extends State<MyApp> {
       routeInformationParser: _router.routeInformationParser,
       routerDelegate: _router.routerDelegate,
     );
+    // return MaterialApp(
+    //   home: LoginWidget(),
+    // );
   }
 }
