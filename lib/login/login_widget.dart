@@ -27,25 +27,26 @@ class _LoginWidgetState extends State<LoginWidget> {
   final viewModel = MainViewModel(KakaoLogin());
 
   fn(BuildContext context) async {
-    bool x = await viewModel.isLogined;
-    if (x) {
-      context.pushNamed('HomePage');
-    } else {
-      await showDialog(
-        context: context,
-        builder: (alertDialogContext) {
-          return AlertDialog(
-            title: Text('Access Denied!'),
-            actions: [
-              TextButton(
-                onPressed: () => Navigator.pop(alertDialogContext),
-                child: Text('Ok'),
-              ),
-            ],
-          );
-        },
-      );
-    }
+    //bool x = await viewModel.isLogined;
+    context.pushNamedAuth('HomePage', mounted);
+    // if (x) {
+    //   context.pushNamed('HomePage');
+    // } else {
+    //   await showDialog(
+    //     context: context,
+    //     builder: (alertDialogContext) {
+    //       return AlertDialog(
+    //         title: Text('Access Denied!'),
+    //         actions: [
+    //           TextButton(
+    //             onPressed: () => Navigator.pop(alertDialogContext),
+    //             child: Text('Ok'),
+    //           ),
+    //         ],
+    //       );
+    //     },
+    //   );
+    // }
   }
 
   @override
@@ -543,6 +544,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                     onTap: () async {
                       await viewModel.login();
                       await fn(context);
+
                       // if (viewModel.isLogined) {
                       //   context.pushNamed('HomePage');
                       // } else {
